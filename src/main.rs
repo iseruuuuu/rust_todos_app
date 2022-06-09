@@ -11,9 +11,6 @@ async fn main() {
     //サーバ起動
     warp::serve(routes).run(([127, 0, 0, 1], 3030)).await;
 
-    //ビルド方法
-    //cargo run
-    //http://localhost:3030/hello/fabeee　を開く
 }
 //ルーティング定義
 mod filters {
